@@ -25,7 +25,7 @@ An edge is an ordered-set of pixels in an image with high intra-similarity & int
 
 // An edge is can be defined as a cluster e and inter-dissimlarity b/w edge clusters can be calculated using centroids & Euclidean Distance as a measure.
 
-An Edge Detector is a method to derive the most valid subset of image-clusters (ordered-sets of pixels) by using image-filtering (i.e. maximizing for intra-cluster similarity, and minimizing for inter-cluster dissimilarity) and then picking the most valid subset of clusters.
+An Edge Detector is a method to derive the most valid subset of image-clusters (ordered-sets of pixels) by using image-filtering (i.e. maximizing for intra-cluster similarity, and minimizing for inter-cluster similarity) and then picking the most valid subset of clusters.
 
 
 DFS for edge detection?
