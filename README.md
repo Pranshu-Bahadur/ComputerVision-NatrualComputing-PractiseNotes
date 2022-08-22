@@ -17,15 +17,30 @@ Defn 1 - An Image can be defined as:
 f in U R^{ixNxM} | N in Z+, M in Z+, i in [1, 3]
 
 
+What is an edge-detector?
+
+What is an edge in an Image?
+
+An edge is a high intensity pixel? Nope, too naive.
+
+An edge is an ordered-set of pixels with high-entropy compared to neighbouring pixels.
+
+An edge is the chain (ordered-set) of with intra-similarity and inter-dissimilarity.
+
+
+
+
 Edge Detectors:
 
-- [ ] Laplacian detectors
+- [ ] Formal Definition
 
-- [ ] Canny edge detector
+- [ ] Laplacian 
 
-- [ ] Harris corner detector
+- [ ] Canny Edge 
 
-- [ ] Gaussian detector
+- [ ] Harris Corner 
+
+- [ ] Gaussian 
 
 Histogram of Gradients
 
