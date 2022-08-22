@@ -14,18 +14,26 @@ It's active learning!
 
 Defn 1 - An Image can be defined as:
 
-f in U R^{ixNxM} | N in Z+, M in Z+, i in [1, 3]
+F in U R^{ixNxM} | N in Z+, M in Z+, i in [1, 3]
 
 
 What is an edge-detector?
 
 What is an edge in an Image?
 
-An edge is a high intensity pixel? Nope, too naive.
+An edge is an ordered-set of pixels in an image with high intra-similarity & inter-dissimilarity.
 
-An edge is an ordered-set of pixels with high-entropy compared to neighbouring pixels.
+// An edge is can be defined as a cluster e and inter-dissimlarity b/w edge clusters can be calculated using centroids & Euclidean Distance as a measure.
 
-An edge is the chain (ordered-set) of with intra-similarity and inter-dissimilarity.
+An Edge Detector is a method to derive the most valid subset of image-clusters (ordered-sets of pixels) by using image-filtering (i.e. maximizing for intra-cluster similarity, and minimizing for inter-cluster dissimilarity) and then picking the most valid subset of clusters.
+
+
+DFS for edge detection?
+
+
+
+What is Noise?
+
 
 
 
